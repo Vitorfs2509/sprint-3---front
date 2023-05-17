@@ -1,0 +1,20 @@
+.menu{
+    background-image: url(img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__botoes{
+    text-decoration: none;
+    color: rgb(94, 47, 0);
+    margin: 0 1em;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+
+  }
+
