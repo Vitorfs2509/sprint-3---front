@@ -1,3 +1,16 @@
+*{
+  margin: 0;
+
+}
+body{
+  overflow: hidden;
+}
+
+:root{
+  --cor-fundo: rgb(224, 224, 224);
+  --cor-letra: rgb(0, 0, 0); 
+}
+
 .menu{
     background-image: url(img/logo.jpg);
     background-repeat: no-repeat;
@@ -8,13 +21,71 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    height: 50px;
   }
   .container__botoes{
     text-decoration: none;
     color: rgb(94, 47, 0);
     margin: 0 1em;
     background-color: rgb(255, 255, 255);
+    width: 200px;
     font-size: 25px;
+    
 
+    
   }
 
+  .fotoProjeto img {
+   
+    width: 600px ;
+    
+    height: 100vh; 
+    
+  }
+
+  .div{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #683c2c;
+    margin-right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+  }
+
+
+  .textoProjeto h1{
+
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 220px;
+    font-size: 50px;
+    text-decoration: underline
+    
+  }
+  .textoProjeto h2{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left:10%;
+  text-decoration: underline
+  
+  }
+  .textoProjeto h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:5%;
+    }
+
+  form{
+    width: 100%;
+    font-size: 15px;
+    background-image: linear-gradient(to right, aqua, black );
+    width: 500px;
+    float: right;
+  
+  }
+
+  form label{
+
+    margin-left: 20px;
+    color: black;
+    font-weight: bold ;
+  }
